@@ -1,0 +1,57 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(S2-BG.jpg);
+}
+#btx {
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 40px;
+  background: #fff;
+  color: #261055;
+  font-size: 5mm;
+  z-index: 9;
+  transform: translateY(100px);
+}
+ul {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 1cm;
+}
+ul li {
+  list-style: none;
+  margin-left: 10px;
+  font-size: larger;
+}
+ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  border-color: #fff;
+}
+ul li a:hover {
+  background: rgb(0, 0, 0);
+  color: #2b1055;
+}
+#H {
+  font-size: larger;
+}
+#btn {
+  font-size: larger;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 40px;
+  background: rgb(108, 43, 184);
+  color: #ffffff;
+  box-shadow: 2mm 2mm rgb(44, 44, 44);
+}
+#btn:hover {
+  background: rgb(163, 83, 255);
+  color: #2b1055;
+  color: rgb(0, 0, 0);
+}
